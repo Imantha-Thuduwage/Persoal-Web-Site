@@ -1,0 +1,531 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none !important;
+}
+header {
+    height: 50px;
+    width: 100%;
+    background: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 16px;
+    /*position: fixed;*/
+    color: #343636;
+}
+ body{
+     margin: 0;
+ }
+ h3{
+     display: inline;
+ }
+ a{
+     color: #49465e;
+     background-color: transparent;
+     text-decoration: none;
+ }
+ a:hover {
+     color: #a0a8a2;
+     background-color: transparent;
+ }
+ a:active {
+     color: #2dbeeb;
+     background-color: transparent;
+ }
+body > header > nav > ul > li {
+    margin-top: 0;
+    list-style: none;
+    align-items: center;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+/*Welcome Area Styles*/
+
+.box{
+   display: block;
+    width: 85%;
+    height: 400px;
+    padding: 0px;
+    margin: auto;
+    background-size: cover;
+    background-image: url("Images/cover2.jpeg");
+    text-align: center;
+}
+.welcome{
+    width: 100%;
+    height: 500px;
+    background: white;
+}
+.welcome-text{
+    width: fit-content;
+    height: 150px;
+    margin: auto;
+    background-color: white;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+ .welcome-text h3{
+     top: 50px;
+     font-family: 'Parisienne', cursive;;
+     font-size: 5em;
+     font-weight: lighter;
+ }
+ .para1{
+     width: 800px;
+     height: 400px;
+     color: #929696;
+     text-align: center;
+     margin: auto;
+     background-color: white;
+     top: 0;
+     right: 0;
+     left: 0;
+     bottom: 0;
+     font-family: 'Encode Sans', sans-serif;
+     font-weight: normal;
+     letter-spacing: 0.5em;
+     line-height: 50px;
+ }
+.social_links{
+    width: 400px;
+    height: 80px;
+    margin: auto;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding-top: 2em;
+}
+
+/*Footer Styles*/
+
+.footer{
+    background: #343636;
+    display: block;
+    line-height: 30px;
+    padding: 30px 30px 10px 30px;
+}
+.inner-footer{
+    background: crimson;
+    display: flex;
+}
+.left-footer-items{
+    width: 40%;
+    background: mediumturquoise;
+    box-sizing: border-box;
+    left: 0;
+    top: 0;
+    padding: 12px;
+}
+.right-footer-items{
+    width: 30%;
+    background: darkgoldenrod;
+    box-sizing: border-box;
+    left: 0;
+    top: 0;
+    padding: 12px;
+}
+.middle-footer-items{
+    width: 30%;
+    background: antiquewhite;
+    box-sizing: border-box;
+    top: 0;
+    right: 0;
+    padding: 12px;
+}
+.footer li{
+list-style: none;
+}
+.footer-bottom {
+    text-align: center;
+    padding: 12px;
+    color: white;
+    font-size: 20px;
+}
+
+/*Contact Form Styles*/
+
+.contact-title{
+    margin: 2em;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 1.5em;
+    color: #343636;
+    letter-spacing: 0.3em;
+    border-bottom-color: black;
+    border-bottom-style: outset;
+    border-width: 2px;
+}
+.contact-section{
+background-size: cover;
+padding: 40px 0;
+}
+.contact-from{
+max-width: 600px;
+margin: auto;
+padding: 0 10px;
+overflow: hidden;
+}
+.textbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 24px;
+    padding: 12px 0;
+    margin: 20px 0;
+    border-bottom: 1px solid #2dbeeb;
+}
+.textbox input{
+    border: none;
+    outline: none;
+    width: 80%;
+    background: none;
+    color: #343636;
+    font-size: 24px;
+    float: left;
+    margin: 0 10px;
+}
+.messageArea textarea{
+    resize: none;
+    width: 90%;
+    padding: 8px;
+}
+.btnSubmit{
+    width: 80%;
+    background: none;
+    border: 2px solid #4caf50;
+    color: black;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 12px 0;
+}
+
+/*About Me Styles*/
+
+.about-section-text{
+    margin-left: 2em;
+    margin-bottom: 2em;
+    margin-right: 2em;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 1.5em;
+    color: #343636;
+    letter-spacing: 0.3em;
+    border-bottom-color: black;
+    border-bottom-style: outset;
+    border-width: 2px;
+}
+.about-section{
+width: 100%;
+height: 400px;
+}
+.image-mother{
+width: 35%;
+height: 325px;
+display: flex;
+float: left;
+}
+.about-me-text{
+width: 60%;
+height: 400px;
+background: white;
+float: right;
+padding: 10px;
+font-family: sans-serif;
+}
+.my-image{
+background-image:url("Images/DSC_8050 copy.jpg");
+width: 300px;
+height: 300px;
+background-size: cover;
+border-radius: 75%;
+margin: auto;
+}
+.who-is{
+    display: inline-block;
+    font-size: 2em;
+    padding: 12px 22px 12px;
+}
+.about-me-text p{
+    padding: 12px 12px 12px 12px;
+    font-size: 25px;
+    line-height: 45px;
+    letter-spacing: 1.3px;
+    margin-left: 12px;
+}
+
+/*Skill Area */
+
+.skill-title{
+    margin: 0em 2em 2em 2em;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 1.5em;
+    color: #343636;
+    letter-spacing: 0.3em;
+    border-bottom-color: black;
+    border-bottom-style: outset;
+    border-width: 2px;
+}
+.skill-background{
+    background-image: url("Images/img002.png");
+    background-size: cover;
+    height: 600px;
+    width: 85%;
+    margin: auto;
+    display: flex;
+}
+.skill-container{
+    line-height: 2.5em;
+    letter-spacing: 0.3em;
+    height: 80%;
+    width: 80%;
+    margin: auto;
+    background-color: #fafafa;
+    opacity: 0.8;
+    display: flex;
+    justify-content: space-evenly;
+}
+.skill-main{
+    list-style-position: outside;
+}
+.skill-inner{
+    list-style-position: inside;
+}
+/*projects area*/
+
+.project-title{
+    margin: 2em;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 1.5em;
+    color: #343636;
+    letter-spacing: 0.3em;
+    border-bottom-color: black;
+    border-bottom-style: outset;
+    border-width: 2px;
+}
+.project-main{
+    height: fit-content;
+    margin: auto;
+    /*width: 75%;*/
+    background-color: mediumblue;
+    display: flex;
+    flex-flow: row wrap ;
+    justify-content: space-evenly;
+}
+
+.project-img{
+    background-color: white;
+    box-shadow: 6px 5px 17px 0px rgba(0, 0, 0, 0.3);
+    width: 250px;
+    /*height: 250px;*/
+    border-radius: 20px;
+    margin: 16px;
+    text-align: center;
+    /*line-height: 75px;*/
+    font-size: 30px;
+    padding-bottom: 12px;
+}
+
+.project-img img {
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.project-img:hover {
+    animation: crescendo 1.5s alternate ease-in-out;
+}
+
+@keyframes crescendo {
+    0%   {transform: scale(1);}
+    50% {transform: scale(1.2);}
+    100%   {transform: scale(1);}
+}
+
+/*Responsive Section*/
+@media all and (max-width: 1440px) and (min-width: 1024px) {
+    header {
+        font-size: 1.5em;
+    }
+    .welcome {
+        height: 650px;
+    }
+    .welcome-text h3 {
+        font-size: 7em;
+    }
+    .para1 {
+        width: 900px;
+        line-height: 60px;
+        font-size: 1.3em
+    }
+}
+
+@media all and (max-width: 1024px) and (min-width: 768px) {
+
+}
+
+@media all and (min-width:425px) and (max-width: 768px) {
+    .box {
+        width: 100%;
+        height: 200px;
+        background-position: center;
+    }
+    .welcome {
+        height: fit-content;
+    }
+    .welcome-text{
+        height: 80px;
+    }
+    .welcome-text h3 {
+        font-size: 3.5em;
+    }
+    .image-mother {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+    }
+    .my-image {
+        width: 250px;
+        height: 250px;
+        background-position: right;
+        border-radius: 75%;
+        margin: auto
+    }
+    .about-me-text {
+        width: 60%;
+        height: 400px;
+        background: white;
+        padding: 10px;
+        font-family: sans-serif;
+        margin-bottom: 1em;
+    }
+    .about-section-text{
+        margin-bottom: 1em;
+    }
+    .about-me-text {
+        width: 95%;
+        height: fit-content;
+    }
+    .para1 {
+        width: 90%;
+        height: fit-content;
+        line-height: 45px;
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width: 425px) {
+    header {
+        font-size: 0.9em;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+    }
+    .box {
+        width: 100%;
+        height: 130px;
+        background-position: center;
+    }
+    .welcome {
+        height: fit-content;
+    }
+    .welcome-text{
+        height: 80px;
+    }
+    .welcome-text h3 {
+        font-size: 3.5em;
+    }
+    .image-mother {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+    }
+    .my-image {
+        width: 150px;
+        height: 150px;
+        background-position: right;
+        border-radius: 75%;
+        margin: auto
+    }
+    .about-me-text {
+        height: 400px;
+        background: white;
+        padding: 10px;
+        font-family: sans-serif;
+        margin-bottom: 1em;
+        width: 95%;
+        height: fit-content;
+    }
+    .about-section-text{
+        margin-bottom: 1em;
+    }
+    .about-me-text h3{
+        font-size: 1.5em;
+    }
+    .about-me-text p{
+        font-size: 1em;
+        line-height: 2em;
+    }
+    .para1 {
+        width: 90%;
+        height: fit-content;
+        line-height: 35px;
+        font-size: 0.9em;
+        letter-spacing: 0.4em;
+    }
+    .para1 h2 {
+        margin-bottom: 1em;
+        margin-top: 1em;
+    }
+    .social_links{
+        height: fit-content;
+        width: 80%;
+    }
+    .footer{
+        background: #343636;
+        display: block;
+        line-height: 30px;
+        padding: 30px 30px 10px 30px;
+    }
+    .inner-footer{
+        background: crimson;
+        display: flex;
+        flex-flow: row wrap;
+        justify-items: center;
+    }
+    .left-footer-items{
+        width: 40%;
+        background: mediumturquoise;
+        box-sizing: border-box;
+        left: 0;
+        top: 0;
+        padding: 12px;
+    }
+    .right-footer-items{
+        width: 30%;
+        background: darkgoldenrod;
+        box-sizing: border-box;
+        left: 0;
+        top: 0;
+        padding: 12px;
+    }
+    .middle-footer-items{
+        width: 30%;
+        background: antiquewhite;
+        box-sizing: border-box;
+        top: 0;
+        right: 0;
+        padding: 12px;
+    }
+    .footer li{
+        list-style: none;
+    }
+    .footer-bottom {
+        text-align: center;
+        padding: 12px;
+        color: white;
+        font-size: 20px;
+    }
+}
